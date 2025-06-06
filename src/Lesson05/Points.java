@@ -1,8 +1,27 @@
 package Lesson05;
 
 class Point {
-    int x, y;
+    // final class Point {
+    private int x, y;
+
+    // auto-generated
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
     public Point(int x, int y) {
+    // private Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -10,9 +29,9 @@ class Point {
         // x = -1; y = -1;
         this(-1,-1);
     }
-    double distance(int х, int у) {
-        int dx = this.x - х;
-        int dy = this.y - у;
+    double distance(int x, int y) {
+        int dx = this.x - x;
+        int dy = this.y - y;
         return Math.sqrt(dx * dx + dy * dy);
     }
     double distance(Point p) {
@@ -35,19 +54,19 @@ class Point3D extends Point {
     }
 
     double distance(int x, int y, int z) {
-        int dx = this.x - x;
-        int dy = this.y - y;
+        int dx = this.getX() - x;
+        int dy = this.getY() - y;
         int dz = this.z - z;
         return Math.sqrt(dx * dx + dy * dy + dz * dz);
     }
 
     double distance(Point3D other) {
-        return distance(other.x, other.y, other.z);
+        return distance(other.getX(), other.getY(), other.z);
     }
 
     double distance(int x, int y) {
-        int dx = this.x - x;
-        int dy = this.y - y;
+        int dx = this.getX() - x;
+        int dy = this.getY() - y;
         int dz = 0;
         return Math.sqrt(dx * dx + dy * dy + dz * dz);
     }
@@ -57,8 +76,8 @@ public class Points {
     public static void main(String[] args) {
         Point p1 = new Point(10,20);
         Point p2 = new Point();
-        System.out.println("x = " + p1.x + " у = " + p1.y);
-        System.out.println("x = " + p2.x + " у = " + p2.y);
+        System.out.println("x = " + p1.getX() + " у = " + p1.getY());
+        System.out.println("x = " + p2.getX() + " у = " + p2.getY());
         System.out.println(p1.distance(p2));
         System.out.println(p1.distance(20, 50));
         // Point3D p3 = new Point3D(10, 20, 30);
