@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Operation/Operation.iml" filepath="$PROJECT_DIR$/Operation/Operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TOP-Java.iml" filepath="$PROJECT_DIR$/TOP-Java.iml" />
     </modules>
   </component>
