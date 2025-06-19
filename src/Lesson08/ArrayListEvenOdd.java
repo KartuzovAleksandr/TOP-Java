@@ -16,11 +16,11 @@ public class ArrayListEvenOdd {
             ArrayList<Integer> al1=new ArrayList<Integer>(al);
             ArrayList<Integer> al2=new ArrayList<Integer>(al);
             // удаляем из коллекции al1 четные числа
-            al1.removeIf((Integer x) -> x % 2 == 0);
+            al1.removeIf(x -> x % 2 == 0);
             System.out.println("Odd numbers (Нечетные числа): ");
             System.out.println(al1);
             // удаляем из коллекции al2 нечетные числа
-            al2.removeIf((Integer x) -> x % 2 != 0);
+            al2.removeIf(x -> x % 2 != 0);
             System.out.println("Even numbers (Четные числа): ");
             System.out.println(al2);
 
