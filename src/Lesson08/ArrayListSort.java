@@ -3,15 +3,15 @@ package Lesson08;
 import java.util.*;
 class ArrayListSort {
     public static void main(String[] args) {
-        Random r=new Random();
+        Random r = new Random();
         Scanner sc=new Scanner(System.in);
         System.out.print("ArrayList Size: ");
-        int n=sc.nextInt();
+        int n = sc.nextInt();
 
         ArrayList al = new ArrayList();
 
         System.out.println("Before: ");
-        for (int i=0; i<n; i++)
+        for (int i = 0; i < n; i++)
             al.add(r.nextInt(100));
         System.out.println(al);
 
