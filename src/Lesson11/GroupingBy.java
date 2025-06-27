@@ -3,7 +3,7 @@ class Phone{
     private String company;
     private int price;
 
-    public Phone(String name, String comp, int price){
+    public Phone(String name, String comp, int price) {
         this.name=name;
         this.company=comp;
         this.price = price;
