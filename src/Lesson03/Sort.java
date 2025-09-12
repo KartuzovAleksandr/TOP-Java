@@ -1,3 +1,4 @@
+// import java.util.Arrays;
 void main() {
     Random r = new Random();
     Scanner sc = new Scanner(System.in);
@@ -16,6 +17,7 @@ void main() {
 // сортировка пузырьком
 int[] bubbleSort(int[] m)
 {
+    int temp;
     int n = m.length;
     for (int i = 0; i < n; i++)
     {
@@ -24,6 +26,11 @@ int[] bubbleSort(int[] m)
             if (m[j] > m[j + 1])
             {
                 swap(m, j, j + 1);
+                /*
+                temp = m[j];
+                m[j] = m[j + 1];
+                m[j + 1] = temp;
+                */
             }
         }
     }
