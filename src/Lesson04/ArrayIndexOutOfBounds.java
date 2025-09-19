@@ -1,10 +1,8 @@
-import static java.io.IO.println;
-
 void main() {
     try {
         int[] numbers = new int[3];
         numbers[4] = 45;
-        System.out.println(numbers[4]);
+        println(numbers[4]);
     }
     catch (ArrayIndexOutOfBoundsException ex) {
         println("Возникла ошибка выхода за границы массива");
