@@ -9,7 +9,7 @@ public class AbstractInterface {
         p1.print();
     }
     interface Sotrudnik {
-        public String Family = "Иванов";
+        public String Family = "Павлов";
         void print();
     }
     static abstract class Person {
