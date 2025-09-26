@@ -44,12 +44,12 @@ class Dog extends Animal implements Speakable {
 
     @Override
     public void whoami() {
-        IO.println("я собака");
+        println("я собака");
     }
 
     @Override
     public void speak() {
-        IO.println("гав");
+        println("гав");
     }
 }
 
@@ -60,11 +60,11 @@ class Pigeon extends Animal implements Flyable {
 
     @Override
     public void whoami() {
-        IO.println("я голубь");
+        println("я голубь");
     }
 
     @Override
     public void fly() {
-        IO.println("*летает*");
+        println("*летает*");
     }
 }
