@@ -3,7 +3,7 @@ import static java.lang.IO.println;
 
 void main() {
     SecureRandom r = new SecureRandom();
-    Scanner sc = new Scanner(System.in);
+    var sc = new Scanner(System.in);
     print("Введите размер массива: ");
     int n = sc.nextInt();
     Integer[] m = new Integer[n];

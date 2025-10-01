@@ -8,7 +8,7 @@ class ArrayListSort {
         System.out.print("ArrayList Size: ");
         int n = sc.nextInt();
 
-        ArrayList al = new ArrayList();
+        ArrayList<Integer> al = new ArrayList<>();
 
         System.out.println("Before: ");
         for (int i = 0; i < n; i++)
@@ -20,7 +20,7 @@ class ArrayListSort {
         System.out.println(al);
 
         System.out.println("In reverse order: ");
-        Collections.sort(al, Collections.reverseOrder());
+        al.sort(Collections.reverseOrder());
         System.out.println(al);
     }
 }
