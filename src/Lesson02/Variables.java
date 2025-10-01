@@ -3,5 +3,5 @@ void main() {
     double b = 4;
     double c;
     c = Math.sqrt(a * a + b * b);
-    println ("c = " + c);
+    IO.println ("c = " + c);
 }

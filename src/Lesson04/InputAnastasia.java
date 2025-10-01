@@ -1,3 +1,6 @@
+import static java.lang.IO.print;
+import static java.lang.IO.println;
+
 // Академия TOP
 // Малютина Анастасия Анатольевна гр. ШС П21
 void main() {

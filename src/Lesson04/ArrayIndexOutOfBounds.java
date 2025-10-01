@@ -1,3 +1,5 @@
+import static java.lang.IO.println;
+
 void main() {
     try {
         int[] numbers = new int[3];

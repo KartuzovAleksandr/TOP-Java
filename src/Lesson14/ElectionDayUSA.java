@@ -1,3 +1,5 @@
+import static java.lang.IO.println;
+
 public static LocalDate getElectionDay(int year) {
     // Получаем 1 ноября заданного года
     LocalDate novemberFirst = LocalDate.of(year, 11, 1);

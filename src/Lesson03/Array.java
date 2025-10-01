@@ -16,5 +16,5 @@ void main () {
     month_days[10] = 30;
     month_days[11] = 31;
     */
-    println("April has " + month_days[3] + " days.");
+    IO.println("April has " + month_days[3] + " days.");
 }

@@ -1,3 +1,5 @@
+import static java.lang.IO.println;
+
 public void main() {
     var numbers = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9));
     Optional<Integer> min = numbers.stream().min(Integer::compare);

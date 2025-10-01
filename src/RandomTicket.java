@@ -1,3 +1,5 @@
+import static java.lang.IO.println;
+
 // import java.security.SecureRandom;
 public void main() {
     int Students = 13;

@@ -1,4 +1,7 @@
 import java.util.Scanner;
+import static java.lang.IO.print;
+import static java.lang.IO.println;
+
 void main() {
     print("Введите месяц: ");
     Scanner sc = new Scanner(System.in);

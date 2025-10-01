@@ -1,3 +1,5 @@
+import static java.lang.IO.println;
+
 class Phone{
     private String name;
     private String company;

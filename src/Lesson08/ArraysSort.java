@@ -1,3 +1,6 @@
+import static java.lang.IO.print;
+import static java.lang.IO.println;
+
 void main() {
     SecureRandom r = new SecureRandom();
     Scanner sc = new Scanner(System.in);

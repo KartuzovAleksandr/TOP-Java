@@ -1,3 +1,5 @@
+import static java.lang.IO.println;
+
 // Данчук Александра
 // Академия TOP
 // гр. П23 Оренбург

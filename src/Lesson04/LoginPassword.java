@@ -16,6 +16,9 @@ WrongPasswordException и WrongLoginException - пользовательские
 // Сысуев Андрей ШС П21
 import java.util.regex.Pattern;
 
+import static java.lang.IO.print;
+import static java.lang.IO.println;
+
 void main() {
     Scanner sc = new Scanner(System.in);
     print("Enter your login: ");

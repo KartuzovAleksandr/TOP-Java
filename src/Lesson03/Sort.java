@@ -1,3 +1,6 @@
+import static java.lang.IO.print;
+import static java.lang.IO.println;
+
 // import java.util.Arrays;
 void main() {
     Random r = new Random();
