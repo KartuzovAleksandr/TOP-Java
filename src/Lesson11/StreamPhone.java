@@ -42,7 +42,7 @@ void main(String[] args) {
             new Phone("Nokia 9", "HMD Global",150),
             new Phone("Galaxy S9", "Samsung", 300));
     println("По имени:");
-    phoneStream.sorted(new PhoneComparator())
+    phoneStream.sorted(new PhComparator())
                     .forEach(p -> System.out.printf("%s (%s) - %d \n",
                         p.getName(), p.getCompany(), p.getPrice()));
     println("По цене:");
