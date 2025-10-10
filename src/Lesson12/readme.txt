@@ -1,3 +1,2 @@
-См. примеры
+См. пример
 https://github.com/KartuzovAleksandr/EvenOddJMH
-https://github.com/KartuzovAleksandr/NumericJMH
