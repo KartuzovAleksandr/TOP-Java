@@ -13,6 +13,7 @@ import java.util.Locale;
         int currentYear = LocalDate.now().getYear();
         // Форматтер с русской локалью
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMMM yyyy", new Locale("ru"));
+        // DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yy", Locale.of("ru"));
 
         System.out.println("День сисадмина в ближайшие 10 лет:");
         for (int i = 0; i < 10; i++) {
