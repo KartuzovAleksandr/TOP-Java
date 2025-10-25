@@ -1,5 +1,4 @@
-import static java.lang.IO.println;
-
-public void main() {
-    println("Hello Java 24");
+// import static java.lang.IO.println;
+void main() {
+    IO.println("Hello Java 25");
 }
