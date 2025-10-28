@@ -12,6 +12,7 @@ public class SimpleTypes
             float f = .25f;
             double d = .00001234;
             boolean bool = true;
+            var ss = "Вася";
             System.out.println("byte b = " + b);
             System.out.println("short s = " +s);
             System.out.println("int i = " + i);

@@ -3,8 +3,8 @@ import static java.lang.IO.println;
 // import java.security.SecureRandom;
 public void main() {
     int Students = 6;
-    int start = 3;
-    int end = 38;
+    int start = 1;
+    int end = 30;
     int Questions = end - start + 1;
     int q1, q2, q3;
     // Random r = new Random();
