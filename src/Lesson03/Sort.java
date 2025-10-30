@@ -8,7 +8,7 @@ void main() {
     print("Введите размерность массива: ");
     int n = sc.nextInt();
     int[] m = new int[n];
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < m.length; i++) {
         m[i] = r.nextInt(50);
     }
     println("Исходный массив = " + Arrays.toString(m));
