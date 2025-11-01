@@ -5,6 +5,8 @@ public class Points {
     public static void main(String[] args) {
         Point p1 = new Point(10,20);
         Point p2 = new Point();
+        // p2.x = 15; // нельзя из-за private
+        p2.setX(15);
         out.println("x = " + p1.getX() + " у = " + p1.getY());
         System.out.println("x = " + p2.getX() + " у = " + p2.getY());
         System.out.println(p1.distance(p2));
