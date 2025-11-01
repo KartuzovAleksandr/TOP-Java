@@ -1,4 +1,4 @@
-package Lesson05;
+package Lesson04;
 import static java.lang.System.out;
 
 public class Points {

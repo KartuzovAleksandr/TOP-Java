@@ -3,8 +3,8 @@
 ### Lesson01 - Упрощенный синтаксис
 ### Lesson02 - Типы данных, операторы, новый switch без break
 ### Lesson03 - Массивы, сортировки bubble и quick
-### Lesson04 - Exceptions
-### Lesson05 - Classes
+### Lesson05 - Exceptions
+### Lesson04 - Classes
 ### Lesson06 - Пакеты, интерфейсы, модули, модификаторы доступа
 ### Lesson07 - Модули
 ### Lesson08 - Коллекции

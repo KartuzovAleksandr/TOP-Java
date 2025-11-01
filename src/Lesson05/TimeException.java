@@ -1,7 +1,7 @@
 //Данчук Александра
 //Академия TOP
 //гр. П23
-package Lesson04;
+package Lesson05;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Lesson05;
+package Lesson04;
 
 class Point {
     // final class Point {

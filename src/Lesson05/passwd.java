@@ -1,6 +1,6 @@
 // Академия TOP
 // Демидов Максим ШС П21
-package Lesson04;
+package Lesson05;
 
 import java.util.Scanner;
 

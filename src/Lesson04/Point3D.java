@@ -1,4 +1,4 @@
-package Lesson05;
+package Lesson04;
 
 class Point3D extends Point {
     int z;
