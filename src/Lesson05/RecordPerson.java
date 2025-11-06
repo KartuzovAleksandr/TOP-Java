@@ -1,4 +1,4 @@
-package Lesson09;
+package Lesson05;
 
 public class RecordPerson {
     public static void main (String[] args){
