@@ -1,7 +1,7 @@
 //Макешин Илья
 //Академия TOP
 //гр. П23 Оренбург
-package Lesson06;
+package Lesson07;
 
 interface Speakable {
     void speak();

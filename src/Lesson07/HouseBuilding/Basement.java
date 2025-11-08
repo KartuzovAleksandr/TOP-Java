@@ -1,6 +1,6 @@
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
-public class Roof implements IPart {
+public class Basement implements IPart {
     private boolean isBuilt;
 
     @Override
@@ -16,6 +16,6 @@ public class Roof implements IPart {
     @Override
     public void build() {
         isBuilt = true;
-        System.out.println("Крыша построена.");
+        System.out.println("Фундамент построен.");
     }
 }

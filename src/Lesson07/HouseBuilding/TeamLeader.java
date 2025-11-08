@@ -1,4 +1,4 @@
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
 import java.util.HashMap;
 import java.util.Map;

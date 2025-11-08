@@ -1,8 +1,9 @@
-package Lesson09;
+package Lesson06;
 
 public class GenericAccount {
     public static void main(String[] args) {
         Account<String, Integer> acc1 = new Account<>("2345", 5000);
+        var acc3 = new Account<>("2345", 5000);
         String acc1Id = acc1.getId();
         System.out.println(acc1Id);
 

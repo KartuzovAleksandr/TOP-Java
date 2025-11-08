@@ -1,4 +1,4 @@
-package Lesson06;
+package Lesson07;
 
 interface Callback {
     void callback(int param);

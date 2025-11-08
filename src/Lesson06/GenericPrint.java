@@ -1,4 +1,4 @@
-package Lesson09;
+package Lesson06;
 
 public class GenericPrint {
     public static void main(String[] args)

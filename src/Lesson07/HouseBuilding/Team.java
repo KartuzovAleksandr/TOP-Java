@@ -1,4 +1,4 @@
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
 public interface IPart {
     boolean isBuilt();

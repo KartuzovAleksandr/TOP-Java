@@ -5,10 +5,10 @@
 ### Lesson03 - Массивы, сортировки bubble и quick
 ### Lesson05 - Exceptions
 ### Lesson04 - Classes
-### Lesson06 - Пакеты, интерфейсы, модули, модификаторы доступа
-### Lesson07 - Модули
-### Lesson08 - Коллекции
-### Lesson09 - Generics, Records
+### Lesson07 - Пакеты, интерфейсы, модули, модификаторы доступа
+### Lesson08 - Модули
+### Lesson09 - Коллекции
+### Lesson06 - Generics, Records
 ### Lesson10 - Лямбды, функциональные интерфейсы
 ### Lesson11 - Stream API
 ### Lesson12 - JMH (сравнение Arrays, Collections, Streams, Concurrency)

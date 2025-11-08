@@ -1,6 +1,6 @@
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
-public class Door implements IPart {
+public class Wall implements IPart {
     private boolean isBuilt;
 
     @Override
@@ -16,6 +16,6 @@ public class Door implements IPart {
     @Override
     public void build() {
         isBuilt = true;
-        System.out.println("Дверь установлена.");
+        System.out.println("Стена построена.");
     }
 }

@@ -1,6 +1,6 @@
 // (С) Бегичев Богдан
 // Top Academy гр. П21
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
     public class Main {
         public static void main(String[] args) {

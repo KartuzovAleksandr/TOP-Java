@@ -1,4 +1,4 @@
-package Lesson06.HouseBuilding;
+package Lesson07.HouseBuilding;
 
 public class Worker implements IWorker {
     @Override

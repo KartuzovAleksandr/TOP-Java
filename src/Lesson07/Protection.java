@@ -1,4 +1,4 @@
-package Lesson06;
+package Lesson07;
 
 public class Protection {
     int n = 1;
