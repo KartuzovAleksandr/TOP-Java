@@ -3,12 +3,12 @@
 ### Lesson01 - Упрощенный синтаксис
 ### Lesson02 - Типы данных, операторы, новый switch без break
 ### Lesson03 - Массивы, сортировки bubble и quick
-### Lesson05 - Exceptions
-### Lesson04 - Classes
-### Lesson07 - Пакеты, интерфейсы, модули, модификаторы доступа
+### Lesson04 - Enum, Records, Exceptions
+### Lesson05 - Classes
+### Lesson06 - Generics
+### Lesson07 - Пакеты, интерфейсы, модификаторы доступа
 ### Lesson08 - Модули
 ### Lesson09 - Коллекции
-### Lesson06 - Generics, Records
 ### Lesson10 - Лямбды, функциональные интерфейсы
 ### Lesson11 - Stream API
 ### Lesson12 - JMH (сравнение Arrays, Collections, Streams, Concurrency)
