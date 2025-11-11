@@ -14,6 +14,11 @@ public class Protection {
         System.out.println("n_pro = "	+ n_protected);
         System.out.println("n_pub = " + n_public);
     }
+    public static void main(String[] args) {
+        new Protection();
+        new Derived();
+        new SamePackage();
+    }
 }
 class Derived extends Protection {
     Derived() {
