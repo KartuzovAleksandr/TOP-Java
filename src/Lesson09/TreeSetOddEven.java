@@ -9,13 +9,12 @@ public class TreeSetOddEven {
 
             System.out.println("Before: ");
             TreeSet<Integer> ts=new TreeSet<Integer>();
-            for (int i=0; i<n; i++)
+            for (int i = 0; i < n; i++)
                 while (!ts.add(r.nextInt(100)));
             System.out.println(ts);
 
-            Iterator it;
             int x;
-            it = ts.iterator();
+            var it = ts.iterator();
             System.out.println("Odd numbers: ");
             while (it.hasNext()) {
                 x = (int)it.next();
@@ -27,7 +26,7 @@ public class TreeSetOddEven {
             it= ts.iterator();
             System.out.println("Even numbers: ");
             while (it.hasNext()) {
-                x=(int)it.next();
+                x = it.next();
                 if (x % 2==0)
                     System.out.print(x+" ");
             }

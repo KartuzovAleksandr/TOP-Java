@@ -1,7 +1,7 @@
 package Lesson09;
 import java.util.*;
-
-public class ArrayListEvenOdd {
+// нечетные по убыванию, четные по возрастанию
+public class ArrayListOddEven {
         public static void main(String args[]) {
             Random r = new Random();
             Scanner sc = new Scanner(System.in);

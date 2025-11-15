@@ -18,7 +18,7 @@ class ArrayListComparator {
         Scanner sc=new Scanner(System.in);
         System.out.print("ArrayList Size: ");
         int n=sc.nextInt();
-        ArrayList<Integer> ts=new ArrayList<Integer>();
+        ArrayList<Integer> ts = new ArrayList<>();
 
         System.out.println("Before: ");
         for (int i=0; i<n; i++)
@@ -27,7 +27,7 @@ class ArrayListComparator {
 
         // применяем свой компаратор
         System.out.println("After sort: ");
-        MyComp cp=new MyComp();
+        MyComp cp = new MyComp();
         ts.sort(cp);
         System.out.println(ts);
 
