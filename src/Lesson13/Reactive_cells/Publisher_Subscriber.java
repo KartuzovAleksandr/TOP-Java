@@ -1,4 +1,4 @@
-package Lesson12.Reactive_cells;
+package Lesson13.Reactive_cells;
 
 // Интерфейс издателя для подписки на события
 interface Publisher<T> {
