@@ -11,6 +11,6 @@
 ### Lesson09 - Коллекции
 ### Lesson10 - Лямбды, функциональные интерфейсы
 ### Lesson11 - Stream API
-### Lesson12 - JMH (сравнение Arrays, Collections, Streams, Concurrency)
-### Lesson13 - Java Concurrency
+### Lesson12 - Java Concurrency
+### Lesson13 - JMH (сравнение Arrays, Collections, Streams, Concurrency)
 ### Lesson14 - java.time, работа с файлами

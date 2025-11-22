@@ -1,4 +1,4 @@
-package Lesson13.Reactive_cells;
+package Lesson12.Reactive_cells;
 
 // Класс для ячейки, которая суммирует значения двух входных ячеек
 public class ArithmeticCell extends SimpleCell {

@@ -1,4 +1,4 @@
-package Lesson13;
+package Lesson12;
 
 class Q {
     int n;

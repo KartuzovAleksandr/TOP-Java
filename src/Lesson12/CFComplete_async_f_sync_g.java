@@ -1,11 +1,13 @@
-package Lesson13;
+package Lesson12;
+
+
+/* Реализация класса CFComplete с использованием CompletableFuture
+  для асинхронного вычисления f(x) и синхронного вычисления g(x) */
 
 import java.util.concurrent.*;
 
-/* Реализация класса CFComplete с использованием CompletableFuture
-  для асинхронного вычисления g(x) и синхронного вычисления f(x) */
-
-public class CFComplete_async_g_sync_f {
+// Класс для демонстрации использования CompletableFuture с методом complete
+public class CFComplete_async_f_sync_g {
     // Функция f: возвращает квадрат входного числа
     public static int f(int x) {
         return x * x;
@@ -23,14 +25,14 @@ public class CFComplete_async_g_sync_f {
         int x = 1337;
         // Создание пула потоков с 2 потоками в блоке try-with-resources
         try (ExecutorService executorService = Executors.newFixedThreadPool(2)) {
-            // Создание CompletableFuture для g(x)
-            CompletableFuture<Integer> b = new CompletableFuture<>();
-            // Сохранение f(x) в Future для использования в ResultPrinter
-            Future<Integer> yFuture = CompletableFuture.completedFuture(f(x));
-            // Асинхронное вычисление g(x) с завершением CompletableFuture
-            executorService.submit(() -> b.complete(g(x)));
+            // Создание CompletableFuture для f(x)
+            CompletableFuture<Integer> a = new CompletableFuture<>();
+            // Сохранение g(x) в Future для использования в ResultPrinter
+            Future<Integer> zFuture = CompletableFuture.completedFuture(g(x));
+            // Асинхронное вычисление f(x) с завершением CompletableFuture
+            executorService.submit(() -> a.complete(f(x)));
             // Обработка и вывод результатов
-            ResultPrinter.processAndPrintResults(x, yFuture, b);
+            ResultPrinter.processAndPrintResults(x, a, zFuture);
         }
     }
 }
